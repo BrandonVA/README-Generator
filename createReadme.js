@@ -1,5 +1,5 @@
-const generateReadMe = (inquireObj) => {
-    const { title, description, installInstructions, usageInfo, contribution, license, test  } = inquireObj;
+const generateReadMe = (inquirerObj) => {
+    const { title, description, installInstructions, usageInfo, contribution, license, test  } = inquirerObj;
 
     // WHEN I enter my project title
     // THEN this is displayed as the title of the README
@@ -64,5 +64,9 @@ const generateReadMe = (inquireObj) => {
     ## Tests ${test}
 
     Go the extra mile and write tests for your application. Then provide examples on how to run them.
-
+    `
+    return readMeTemplate;
+}
+module.exports = {
+    createReadMe = generateReadMe
 }
