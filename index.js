@@ -16,12 +16,12 @@ inquirer
     },
     {
         type: "input",
-        message: "How to install.",
+        message: "What are the steps to install your project?",
         name: "installInstructions"
     },
     {
         type: "input",
-        message: "Directions on how to use.",
+        message: "Directions on how to use your project.",
         name: "usageInfo"
     },
     {
