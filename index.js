@@ -42,7 +42,7 @@ inquirer
     {
         type: "checkbox",
         message: "What type of license do you want to use?",
-        choices: ["MIT", "lic2", "lic3"],
+        choices: [{"MIT": 'MIT'}, {"ISC": "ISC"}, {"GNU": "GNU"}, {'Apache 3': 'Apache_2'}, {'BSD 3': 'BSD_3'}],
         name: "license"
     }
     ])
