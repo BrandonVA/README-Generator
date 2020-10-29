@@ -6,12 +6,12 @@ const generate = require('./createReadme');
 inquirer
     .prompt([{
         type: "input",
-        message: "What is your name?",
+        message: "What is the name of your project?",
         name: "title"
     },
     {
         type: "input",
-        message: "Where are you located?",
+        message: "Please write a breif description of the project.",
         name: "description"
     },
     {
@@ -42,7 +42,7 @@ inquirer
     {
         type: "checkbox",
         message: "What type of license do you want to use?",
-        choices: ["lic1", "lic2", "lic3"],
+        choices: ["MIT", "lic2", "lic3"],
         name: "license"
     }
     ])
