@@ -40,9 +40,15 @@ inquirer
         name: 'contribution'
     },
     {
-        type: "checkbox",
+        type: "list",
         message: "What type of license do you want to use?",
-        choices: [{"MIT": 'MIT'}, {"ISC": "ISC"}, {"GNU": "GNU"}, {'Apache 3': 'Apache_2'}, {'BSD 3': 'BSD_3'}],
+        choices: [
+            'ISC',
+            'MIT',
+            'GNU',
+            'Apache 2',
+            'BSD 3',
+        ],
         name: "license"
     }
     ])
