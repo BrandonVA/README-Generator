@@ -1,5 +1,5 @@
 const generateReadMe = (inquirerObj) => {
-    const { title, description, installInstructions, usageInfo, contribution, license, test  } = inquirerObj;
+    const { title, description, installInstructions, usageInfo, email, github, contribution, license, test  } = inquirerObj;
 
     // WHEN I enter my project title
     // THEN this is displayed as the title of the README
@@ -29,6 +29,8 @@ const generateReadMe = (inquirerObj) => {
     ## Usage ${usageInfo}
 
     Provide instructions and examples for use. Include screenshots as needed. 
+    ${email}
+    ${github}
 
 
     ## Credits 
