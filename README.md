@@ -23,9 +23,9 @@ run npm install
 
 Open up the project in the terminal and run index.js and answer the questions asked.
 
-<img src="Images\Start.png" alt="start of project" width="50%" height="auto" style="border: 2px solid white;">
-<img src="Images\Questions-Complete.png" alt="example of the project completed" width="50%" height="auto" style="border: 2px solid white;">
-<img src="Images\Photo-README.png" alt="The README completed" width="50%" height="auto" style="border: 2px solid white;">
+<img src="Images\Start.png" alt="start of project"  style="border: 2px solid white;">
+<img src="Images\Questions-Complete.png" alt="example of the project completed"  style="border: 2px solid white;">
+<img src="Images\Photo-README.png" alt="The README completed"  style="border: 2px solid white;">
 
 
 ## Contributing 
