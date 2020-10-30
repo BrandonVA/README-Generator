@@ -11,7 +11,7 @@ inquirer
     },
     {
         type: "input",
-        message: "Please write a breif description of the project.",
+        message: "Please write a brief description of the project.",
         name: "description"
     },
     {
