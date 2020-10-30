@@ -25,7 +25,9 @@ ${description}
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#Contributing)
+* [Tests](#Tests)
 * [License](#license)
+
 
 ## Installation 
 ${installInstructions}
