@@ -3,7 +3,7 @@
 
 ## Description 
 
-This is a project that generates a README file to help you save time wirting quality README files so you can spend more time working on your project and les time writing a README. This project uses node.js and the inquirer package to use the command line interface to propt the user with questions so those are used to create the README.
+This is a project that generates a README file to help you save time writing quality README files so you can spend more time working on your project and les time writing a README. This project uses node.js and the inquirer package to use the command line interface to prompt the user with questions so those are used to create the README.
 
 
 ## Table of Contents
@@ -19,12 +19,12 @@ run npm install
 
 ## Usage 
 
-open up the project in the terminal and run index.js and aswer the wuestions asked.
+Open up the project in the terminal and run index.js and answer the questions asked.
 
 
 ## Contributing 
 
-Contributions are always welcome if you want to add some features Email me or contact me on github and make a pull request.
+Contributions are always welcome if you want to add some features Email me or contact me on github
 
 -Contact me by email: codebva@gmail.com <br>
 -Contact me by github: [BrandonVA](https://github.com/BrandonVA)
