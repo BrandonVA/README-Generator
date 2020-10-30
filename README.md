@@ -1,40 +1,41 @@
-# Test Project
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# README generator
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Description 
-This is a test of the readme generator. This project is going to be awsome becuase I don't enjoy writing readme files instead I like to spend my time coding so if you are like me you will enjoy this project too!
+This is project is used to generate README files to help you save tim
+e writing quality README files so you can spend more time working on your project. This project is built using node.js a
+nd the inquirer package so you can use the terminal to generate the readme for you all you have to do is answer the quest
+ions asked in the command line.
 
+README generator
 
 ## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
+* [Contributing](#Contributing)
 * [License](#license)
 
 ## Installation 
-You can install this repo as you wish
+run npm install
 
 
 ## Usage 
+Open up the project in the terminal and run node index.js and answer the questions asked.
 
-Go into the terminal and git node index.js and you will be prompted with a series of questions to fill out and aswer.
-
-Include screenshots as needed. 
 
 
 ## Contributing 
+Contributions are always welcome if you want to add some features Email me or contact me on github and make a pull request.
 
-Feel free to contact me via github or my email and make a pull request.
 
--Contact me by email: codebva@gmail.com
--Contact me by github:BrandonVA
+-Contact me by email:  codebva@gmail.com<br>
+-Contact me by github: [BrandonVA](https://github.com/BrandonVA)
 
 ## Tests 
-undefined
+run npm test
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them.
 
 
 ## License 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This project has a [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC) license.
