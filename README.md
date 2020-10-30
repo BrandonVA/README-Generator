@@ -23,6 +23,10 @@ run npm install
 
 Open up the project in the terminal and run index.js and answer the questions asked.
 
+<img src="Images\Start.png" alt="start of project" width="50%" height="auto" style="border: 2px solid white;">
+<img src="Images\Questions-Complete.png" alt="example of the project completed" width="50%" height="auto" style="border: 2px solid white;">
+<img src="Images\Photo-README.png" alt="The README completed" width="50%" height="auto" style="border: 2px solid white;">
+
 
 ## Contributing 
 
@@ -37,4 +41,4 @@ run npm test
 
 
 ## License 
-This project has a [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license.
+This project has a MIT license.
