@@ -1,3 +1,4 @@
+// Object containing the badges for 5 commonly used Licenses.
 const licenseBadges = {
     ISC: '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)',
     MIT: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
@@ -7,17 +8,15 @@ const licenseBadges = {
 }
 
 const generateReadMe = (inquirerObj) => {
+    // Destructuring the object incoming from the inquirer prompt.
     const { title, description, installInstructions, usageInfo, email, github, contribution, license, test } = inquirerObj;
-
-    // WHEN I enter my project title
-    // THEN this is displayed as the title of the README
-    // WHEN I enter a description, installInstructions, usageInfo, contribution guidelines, and test instructions
-    // THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+    // Creating a README template to use for a blue print than adding in the data from inquirer.
     let readMeTemplate =
 `# ${title}
 ${licenseBadges[license]}
 
 ## Description 
+
 ${description}
 
 
@@ -25,7 +24,7 @@ ${description}
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
+* [Contributing](#Contributing)
 * [License](#license)
 
 ## Installation 
@@ -36,28 +35,27 @@ ${installInstructions}
 
 ${usageInfo}
 
-Include screenshots as needed. 
-
 
 ## Contributing 
 
 ${contribution}
 
--Contact me by email: ${email}
--Contact me by github:${github}
+-Contact me by email: ${email} <br>
+-Contact me by github: [${github}](https://github.com/${github})
 
 ## Tests 
 ${test}
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them.
 
 
 ## License 
-${licenseBadges[license]}
+This project has a ${licenseBadges[license]} license.
 `;
-
+    // Returning the newly built README template filled in with the data from the inquirer prompt.
     return readMeTemplate;
 }
+
+
 module.exports = {
     createReadMe: generateReadMe,
 }
