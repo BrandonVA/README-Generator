@@ -40,6 +40,11 @@ inquirer
         name: 'contribution'
     },
     {
+        type: 'input',
+        message: 'How test the project.',
+        name: 'test'
+    },
+    {
         type: "list",
         message: "What type of license do you want to use?",
         choices: [
