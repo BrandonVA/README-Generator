@@ -41,4 +41,4 @@ run npm test
 
 
 ## License 
-This project has a MIT license.
+This project has a [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license.
