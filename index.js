@@ -62,7 +62,7 @@ inquirer
 
         const readMeTemplate = generate.createReadMe(response);
 
-        fs.writeFile("README.md", readMeTemplate, function (err) {
+        fs.writeFile("output/README.md", readMeTemplate, function (err) {
             if (err) {
                 return console.log(err);
             }
